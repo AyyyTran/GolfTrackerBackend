@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EwTChHZ3ouXWxTLd3WWWa8uMWZtTkYqBX1LDyWUeKgI=",
+  "Source": "GolfTrackerBackend",
+  "BasePath": "_content/GolfTrackerBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
