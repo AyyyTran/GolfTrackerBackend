@@ -8,10 +8,10 @@ public class GolfTrackerDbContext : DbContext
     }
 
     // DbSet properties representing your model classes
-    public DbSet<User> Users { get; set; }
-    public DbSet<GolfRound> GolfRounds { get; set; }
-    public DbSet<Hole> Holes { get; set; }
-    public DbSet<Score> Scores { get; set; }
+    public DbSet<User>? Users { get; set; }
+    public DbSet<GolfRound>? GolfRounds { get; set; }
+    public DbSet<Hole>? Holes { get; set; }
+    public DbSet<Score>? Scores { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

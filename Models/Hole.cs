@@ -6,6 +6,6 @@ namespace GolfTrackerBackend.Models
         public int Number { get; set; }
         public int Par { get; set; }
 
-        public ICollection<Score> Scores { get; set; }
+        public ICollection<Score>? Scores { get; set; }
     }
 }
